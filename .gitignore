@@ -330,3 +330,11 @@ aclocal.m4
 Makefile
 Makefile.*
 !Makefile.am
+
+appconfig_*/work
+build
+configure
+aclocal.m4
+Makefile
+Makefile.*
+!Makefile.am
