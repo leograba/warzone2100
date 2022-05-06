@@ -121,7 +121,7 @@ static int32_t GLmaxElementsVertices, GLmaxElementsIndices;
 /// The sectors are stored here
 static std::unique_ptr<Sector[]> sectors;
 /// The default sector size (a sector is sectorSize x sectorSize)
-static int sectorSize = 15;
+static int sectorSize = 2;
 /// What is the distance we can see
 static int terrainDistance;
 /// How many sectors have we actually got?
