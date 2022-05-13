@@ -92,6 +92,7 @@ volumes:
     common:
         /dev/dri: /dev/dri
         /dev/galcore: /dev/galcore
+        /home/torizon: /home/torizon
         /tmp: /tmp
     debug:
         /home/torizon/warzone2100: /warzone2100,rw
