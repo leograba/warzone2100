@@ -1,3 +1,26 @@
+Forked from [https://github.com/Warzone2100/warzone2100](https://github.com/Warzone2100/warzone2100)
+
+This fork enables Warzone 2100 on [Torizon](https://www.toradex.com/torizon).
+
+How to Run
+----------
+
+So far, no Warzone 2100 builds have been released yet. You must build from source
+as explained in the next section.
+
+How to Build From Source
+------------------------
+
+Open and build this project with the [Visual Studio Code Extension for Torizon](https://developer.toradex.com/torizon/working-with-torizon/application-development/visual-studio-code-extension-for-torizon/).
+
+Supported SoMs
+--------------
+
+So far, the project has only been configured for i.MX 8 (64-bit) SoMs. It might
+be possible to build it for i.MX 6 (32-bit) SoMs.
+
+Below is the content from the upstream project README.
+
 Warzone 2100
 ============
 
