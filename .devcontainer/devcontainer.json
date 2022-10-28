@@ -3,6 +3,7 @@
     "dockerFile": "Dockerfile",
     "extensions": [
         "ms-vscode.cpptools",
+        "Toradex.torizon-early-access",
         "ms-vscode.cmake-tools"
     ],
     "containerEnv": {
@@ -20,10 +21,9 @@
         "--network=host"
     ],
     "remoteUser": "torizon",
-    "postCreateCommand": "mkdir -p /home/torizon/.vscode-server-insiders/extensions ; mkdir -p /home/torizon/.vscode-server/extensions; ln -s /home/torizon/.torizon-extension /home/torizon/.vscode-server-insiders/extensions/toradex.torizon ; ln -s /home/torizon/.torizon-extension /home/torizon/.vscode-server/extensions/toradex.torizon ; chgrp docker /var/run/docker.sock ; true",
+    "postCreateCommand": "true",
     "mounts": [
         "source=${localEnv:HOME}${localEnv:USERPROFILE}/.moses,target=/home/torizon/.moses,type=bind",
-        "source=//var/run/docker.sock,target=/var/run/docker.sock,type=bind",
-        "source=/home/leonardo/.vscode/extensions/toradex.torizon-early-access-1.3.138,target=/home/torizon/.torizon-extension,type=bind"
+        "source=//var/run/docker.sock,target=/var/run/docker.sock,type=bind"
     ]
 }
