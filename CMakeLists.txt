@@ -19,7 +19,7 @@ OPTION(ENABLE_NLS "Native Language Support" OFF)
 OPTION(WZ_ENABLE_WARNINGS "Enable (additional) warnings" OFF)
 OPTION(WZ_ENABLE_WARNINGS_AS_ERRORS "Enable compiler flags that treat (most) warnings as errors" ON)
 OPTION(WZ_ENABLE_BACKEND_VULKAN "Enable Vulkan backend" OFF)
-OPTION(WZ_ENABLE_BASIS_UNIVERSAL "Enable Basis Universal texture support" ON)
+OPTION(WZ_ENABLE_BASIS_UNIVERSAL "Enable Basis Universal texture support" OFF)
 OPTION(WZ_DEBUG_GFX_API_LEAKS "Enable debugging for graphics API leaks" ON)
 OPTION(WZ_FORCE_MINIMAL_OPUSFILE "Force a minimal build of Opusfile, since WZ does not need (or want) HTTP stream support" ON)
 
