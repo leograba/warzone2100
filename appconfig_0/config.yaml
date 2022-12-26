@@ -48,7 +48,8 @@ props:
             libvulkan-dev:#%platform.debian-arch%# libwayland-dev:#%platform.debian-arch%#
             imx-gpu-viv-wayland-dev:#%platform.debian-arch%# libglew-dev:#%platform.debian-arch%#
             glslang-dev:#%platform.debian-arch%# libglm-dev:#%platform.debian-arch%#
-            gambas3-gb-opengl-glsl:#%platform.debian-arch%#
+            gambas3-gb-opengl-glsl:#%platform.debian-arch%# libopus-dev:#%platform.debian-arch%#
+            libminiupnpc-dev:#%platform.debian-arch%#
         env: ENV SDL_VIDEODRIVER="wayland" ACCEPT_FSL_EULA=1
         exename: bin/warzone2100
         expose: ''
@@ -56,8 +57,8 @@ props:
             libvorbisidec1 libvorbis-ocaml libtheora0 libtheora-ocaml libtheora-bin
             libxrandr2 libfribidi-bin libfribidi0 libfreetype6 libharfbuzz0b libharfbuzz-bin
             libharfbuzz-gobject0 libharfbuzz-icu0 libfontconfig1 libcurl4 libcurl3-gnutls
-            libgnutls30 libgnutlsxx28  libsodium23 libsqlite3-0 libsqlite3-ocaml xdg-utils
-            libsdl2-2.0-0
+            libgnutls30 libgnutlsxx28  libsodium23 libsqlite3-0 libsqlite3-ocaml libopus0
+            miniupnpc xdg-utils libsdl2-2.0-0
         language: c-cpp-nossh
         preinstallcommands: ''
         sdkpostinstallcommands: ''
